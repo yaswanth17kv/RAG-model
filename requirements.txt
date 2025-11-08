@@ -1,0 +1,1 @@
+pip install transformers sentence-transformers faiss-cpu datasets PyPDF2  openai  pypdf
