@@ -1,1 +1,22 @@
-pip install transformers sentence-transformers faiss-cpu datasets PyPDF2  openai  pypdf
+# --- Core dependencies for RAG Chatbot ---
+
+# Streamlit web app framework
+streamlit>=1.26.0
+
+# OpenAI official SDK (for embeddings + responses)
+openai>=1.10.0
+
+# FAISS for vector similarity search (CPU version)
+faiss-cpu>=1.7.4
+
+# Numpy for numerical operations
+numpy>=1.24.0
+
+# PDF text extraction
+pypdf>=3.12.0
+
+# Optional: for local environment variable loading (you can skip if not using .env)
+python-dotenv>=1.0.0
+
+
+# Run this - pip install -r requirements.txt
